@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+.form-container {
+    margin: 10px 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    max-width: 160px;
+}
+
+.input-container label {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.input-container select {
+    max-width: max-content;
+}
+
+.error-message {
+    color: rgb(228, 19, 19);
+    font-size: 13px;
+    margin: 3px 0;
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    padding: 10px;
+    background-color: #3898ec;
+    color: white;
+}
